@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<style>
+    {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+    }
+
+
+    .header {
+        padding: 30px;
+        text-align: center;
+        background: black;
+        background-image: url("saku.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .header h1 {
+        font-size: 50px;
+        font-family: "luna";
+    }
+
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: sticky;
+        top: 0px;
+    }
+
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        position: sticky;
+    }
+
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        position: sticky;
+        top: 0px;
+    }
+
+.card video{
+    width: 100%;
+    padding: 0px;
+}
+
+    .leftcolumn {
+        float: left;
+        width: 75%;
+    }
+
+
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+    }
+
+
+    .fakeimg {
+        background-image: url("gunung-fuji_20160907_172254.jpg");
+        width: 100%;
+        padding: 20px;
+        background-position: center;
+        background-size: cover; 
+    }
+
+    .fakeimgg {
+        background-image: url("img/singapura.jpg");
+        width: 100%;
+        padding: 20px;
+        background-position: center;
+        background-size: cover; 
+    }
+
+
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+    }
+
+
+    @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+
+    @media screen and (max-width: 400px) {
+        .topnav a {
+            float: none;
+            width: 100%;
+        }
+
+        .html {
+            heght: 100%;
+            overflow: hidden;
+        }
+
+        .body {
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            perspective: 1px;
+            transform-style: preserve-3d;
+            height: 100%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            font-family: "luna";
+        }
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="layout1.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <font color="Black">
+                <h1>Libur Hemat</h1>
+            </font>
+            <font color="Black" <p>Pilih paket hemat dengan cermat dan cepat</p>
+            </font>
+        </div>
+    </header>
+
+    <div class="topnav">
+        <a href="file:///D:/TUGAS/Produktif%20RPL/Modul%20Edit/menu1.html">Gunung Fujiyama</a>
+        <a href="file:///D:/TUGAS/Produktif%20RPL/Modul%20Edit/menu2.html">Singapore</a>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Gunung Fujiyama</h2>
+                <h5>Start From $144.99</h5>
+                <div class="fakeimg" style="height:200px;"></div>
+                <p>Tentang Gunung Fujiyama </p>
+                <p>Gunung Fuji adalah gunung tertinggi di Jepang, terletak di perbatasan Prefektur Shizuoka dan
+                    Yamanashi
+                    di sebelah barat Tokyo. Gunung Fuji terletak dekat pesisir Pasifik di pusat Honshu. Fuji
+                    dikelilingi oleh tiga kota yaitu
+                    Gotemba, Fuji-Yoshida dan Fujinomiya</p>
+            </div>
+            <div class="card">
+                <h2>Singapore</h2>
+                <h5>Start From $100.50</h5>
+                <div class="fakeimgg" style="height:200px;">Image</div>
+                <p>Tentang Singapore</p>
+                <p>Singapura adalah sebuah negara pulau di lepas ujung selatan Semenanjung Malaya, 137 kilometer di utara khatulistiwa di Asia Tenggara. 
+                    Negara ini terpisah dari Malaysia oleh Selat Johor di
+                    utara, dan dari Kepulauan Riau, Indonesia oleh Selat Singapura di selatan.</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Time Lapse</h2>
+                <video controls>
+                    <source src="Hello Tokyo - Hyperlapse - Slow-Motion.mp4" type="video/mp4" hight="100px" widht="90px">
+                </video>
+                <p>Japan Time Lapse</p>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <a href="https://www.instagram.com/rizky_nue/">@rizky_nue INSTAGRAM</a>
+                <br>
+                <br>
+                <a href="https://www.youtube.com/channel/UCVyIZtS8UNo2QBqKQxj0gFQ">@RizkyTen YouTube</a>
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Contact Person</h2>
+    </div>
+    <marquee bgcolor="Red" behavior="scroll" direction="right" scrollamount="8">
+        <font face="Times New Rowman" color="silver"> &copy; Muhammad Rizky Amiruddin Hakim - 25 - Rekayasa Perangkat Lunak - SMK Telkom
+            Malang</font>
+    </marquee>
+    <br /><br />
+</body>
+
+</html>
